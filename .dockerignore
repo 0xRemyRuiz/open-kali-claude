@@ -1,0 +1,10 @@
+# Keep the build context tiny and cache-stable. Only the Dockerfile and
+# entrypoint.sh are needed to build the image.
+.git
+.gitignore
+.dockerignore
+.env
+.env.example
+*.md
+LICENSE
+okc.sh
